@@ -1,0 +1,146 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Oswald'; 
+    src: url("../Fonts/Oswald/Oswald[wght].ttf");
+}
+@font-face {
+    font-family: 'Dosis';
+    src: url("../Fonts/Dosis/Dosis-Regular.ttf");
+}
+/* 
+FED CA2 Bootstrap Website
+
+Stylesheet for Layout of Jonathan's Personal Portfolio Projects Page
+Author: Jonathan Chong
+Date: 2nd August 2019
+
+Filename: contact.css
+*/
+
+/* Header styles */
+
+.jumbotron {
+    position: relative;
+    display: block;
+    background: url(../Images/header_banner.jpg);
+    background-size: cover;
+    color: white;
+    height: 10em;
+    filter: brightness(80%);
+    border-radius: 0px;
+    margin: 0px -15px;
+}
+
+.jumbotron h1 {
+    font-size: 2em; /* 2em before change */
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 0 8px black;
+}
+
+/* Body styles */
+
+body {
+    background: url(../Images/background_cropped.jpg);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mainBox {
+    background-color: rgba(255, 255, 255, 80%);
+}
+
+/* Header Styles */
+
+.contactHeader {
+    padding: 20px 0px 20px 20px;
+    text-decoration: underline;
+}
+
+.contactInfo {
+    padding: 10px 0px 10px 20px;
+}
+
+.addInfoHeader {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+
+form {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.row2 {
+    margin-top: 20px;
+}
+
+.row4 { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.required {
+    color: red;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    clear: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: rgba(52,58,64, 85%);
+    color: black;
+}
+
+.footer2 {
+    background: rgba(52,58,64, 85%);
+    padding-bottom: 5px;
+}
+
+#facebook {
+    max-height: 45px;
+    max-width: 45px;
+    filter:opacity(60%);
+    margin-bottom: 5px;
+}
+
+#facebook:hover {
+    filter:opacity(100%);
+}
+
+#twitter {
+    padding-top: 5px;
+    max-height: 30px;
+    max-width: 35px;
+    filter:opacity(60%);
+    margin-bottom: 5px;
+}
+
+#twitter:hover {
+    filter: opacity(100%);
+}
+
+#instagram {
+    max-height: 30px;
+    max-width: 30px;
+    margin-left: 10px;
+    filter: opacity(60%);
+    margin-bottom:10px;
+}
+
+#instagram:hover {
+    filter: opacity(100%);
+}
+
+.creditLink {
+    color: inherit;
+}
+
+.creditLink:hover {
+    color:inherit;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Oswald'; 
+    src: url("../Fonts/Oswald/Oswald[wght].ttf");
+}
+@font-face {
+    font-family: 'Dosis';
+    src: url("../Fonts/Dosis/Dosis-Regular.ttf");
+}
+
+/* 
+FED CA2 Bootstrap Website
+
+Stylesheet for Layout of Jonathan's Personal Portfolio Home Page
+Author: Jonathan Chong
+Date: 26th July 2019
+
+Filename: index.css
+*/
+
+/* Overarching Styles */
+
+img { 
+    width:100%;
+}
+
+/* Banner Styles */
+
+.jumbotron {
+    position: relative;
+    display: block;
+    background: url(../Images/header_banner.jpg);
+    background-size: cover;
+    color: white;
+    height: 10em;
+    filter: brightness(80%);
+    border-radius: 0px;
+    margin: 0px -15px;
+}
+
+.jumbotron h1 {
+    font-size: 2em; /* 2em before change */
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 0 8px black;
+}
+
+/* Body Styles */
+body {
+    background: url(../Images/background_cropped.jpg);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+ }
+
+ .mainBox {
+    background-color: rgba(255, 255, 255, 80%);
+ }
+
+ .introRow {
+    padding: 5px 20px 5px 20px;
+ }
+
+
+/* Text Styles */
+
+.description {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.descriptionH1 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.tilePrompt {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.introPhoto {
+    margin: 20px 0px;
+    float: left;
+    box-shadow: 0 0 8px black;
+    max-width: 230px;
+    max-height: 400px;
+}
+
+/* Tile Styles */
+
+.tileLink {
+    padding: 0px 10px 0px 10px;
+}
+
+.tileLink img {
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+
+.caption {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Footer Styles */
+.footer {
+    clear: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: rgba(52,58,64, 85%);
+    color: black;
+}
+
+.footer2 {
+    background: rgba(52,58,64, 85%);
+    padding-bottom: 5px;
+}
+
+#facebook {
+    max-height: 45px;
+    max-width: 45px;
+    filter:opacity(60%);
+}
+
+#facebook:hover {
+    filter:opacity(100%);
+}
+
+#twitter {
+    padding-top: 5px;
+    max-height: 30px;
+    max-width: 35px;
+    filter:opacity(60%);
+}
+
+#twitter:hover {
+    filter: opacity(100%);
+}
+
+#instagram {
+    max-height: 30px;
+    max-width: 30px;
+    margin-left: 10px;
+    filter: opacity(60%);
+}
+
+#instagram:hover {
+    filter: opacity(100%);
+}
+
+.creditLink {
+    color: inherit;
+}
+
+.creditLink:hover {
+    color:inherit;
+}

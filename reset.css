@@ -1,0 +1,31 @@
+/* 
+   
+   Filename: reset.css
+
+   Author:   Jonathan Chong
+   Date:     16th May 2019
+   
+ */
+
+/* reset styles */
+html {
+    font-size: 16px;
+ }
+ a, article, body, div, figcaption, figure, footer, header, h1, 
+ h2, h3, img, li, nav, p, section, ul {
+    border: 0;
+    padding: 0;
+    margin: 0;
+ }
+ img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+ }
+ ol, ul {
+    list-style-type: none;
+ }
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+ }
